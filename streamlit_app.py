@@ -67,7 +67,7 @@ with st.spinner("Converting with ffmpeg"):
         str(gif_path),
         pix_fmt="rgb8",
         s=f"{width//2}x{height//2}",
-        r="20",
+        r="17",
         f="gif",
     )
     stream = stream.overwrite_output()
